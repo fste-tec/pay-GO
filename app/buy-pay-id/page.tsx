@@ -66,13 +66,17 @@ export default function BuyPayIdPage() {
       {/* Form - Matching the screenshot exactly */}
       <div className="p-4 flex-1">
         <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="space-y-2">
-            <label htmlFor="amount" className="text-gray-700 font-medium">
-              Amount
-            </label>
-            <Input id="amount" value="₦6,999" disabled className="bg-gray-100 h-12">
-          </div>
-
+         <div className="space-y-2">
+  <label htmlFor="amount" className="text-gray-700 font-medium">
+    Amount
+  </label>
+  <Input 
+    id="amount" 
+    value="₦6,999" 
+    disabled 
+    className="bg-gray-100 h-12" 
+  />
+</div>
           <div className="space-y-2">
             <label htmlFor="fullName" className="text-gray-700 font-medium">
          
