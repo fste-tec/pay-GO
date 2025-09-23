@@ -75,7 +75,7 @@ export default function BuyPayIdPage() {
 
           <div className="space-y-2">
             <label htmlFor="fullName" className="text-gray-700 font-medium">
-              Full Name 2434334
+         
             </label>
             <Input
               id="fullName"
@@ -117,5 +117,4 @@ export default function BuyPayIdPage() {
         <p className="text-gray-700 font-medium">PayGo Financial Services LTD</p>
       </div>
     </div>
-  )
 }
