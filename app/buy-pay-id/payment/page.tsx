@@ -81,7 +81,7 @@ export default function PaymentPage() {
             <div>
               <p className="text-gray-700 mb-1">Amount</p>
               <div className="flex items-center justify-between">
-                <p className="font-bold">NGN 7,250</p>
+                <p className="font-bold">NGN 6,999</p>
                 <button onClick={handleCopyAmount} className="bg-orange-400 text-white px-3 py-1 rounded text-sm">
                   {copiedAmount ? "Copied" : "Copy"}
                 </button>
