@@ -75,7 +75,7 @@ export default function BuyPayIdPage() {
 
           <div className="space-y-2">
             <label htmlFor="fullName" className="text-gray-700 font-medium">
-              Full Name
+              Full Name 2434334
             </label>
             <Input
               id="fullName"
