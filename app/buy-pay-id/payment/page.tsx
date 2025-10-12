@@ -91,7 +91,7 @@ export default function PaymentPage() {
             <div>
               <p className="text-gray-700 mb-1">Account Number</p>
               <div className="flex items-center justify-between">
-                <p className="font-bold">5500550055</p>
+                <p className="font-bold">8680549474</p>
                 <button
                   onClick={handleCopyAccountNumber}
                   className="bg-orange-400 text-white px-3 py-1 rounded text-sm"
@@ -103,12 +103,12 @@ export default function PaymentPage() {
 
             <div>
               <p className="text-gray-700 mb-1">Bank Name</p>
-              <p className="font-bold">BestStar MFB</p>
+              <p className="font-bold">Sterling Bank</p>
             </div>
 
             <div>
               <p className="text-gray-700 mb-1">Account Name</p>
-              <p className="font-bold">Sunday Adeabyo</p>
+              <p className="font-bold">Payed/ADEBAYOSUNDAY</p>
             </div>
           </div>
 
