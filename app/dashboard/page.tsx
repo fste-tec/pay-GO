@@ -82,7 +82,7 @@ export default function DashboardPage() {
   // Dashboard menu items with emojis and icons
   const menuItems: MenuItem[] = [
     { name: "Buy PAY ID", icon: CreditCard, link: "/buy-pay-id", color: "text-purple-600", bgColor: "" },
-    { name: "Watch", emoji: "📺", link: "/watch", color: "text-red-600", bgColor: "" },
+    { name: "How it works", emoji: "📺", link: "/watch", color: "text-red-600", bgColor: "" },
     { name: "Airtime", emoji: "📶", link: "/airtime", color: "text-green-600", bgColor: "" },
     { name: "Data", emoji: "🛢️", link: "/data", color: "text-cyan-600", bgColor: "" },
     { name: "Support", emoji: "🎧", link: "/support", color: "text-teal-600", bgColor: "" },
@@ -102,7 +102,7 @@ export default function DashboardPage() {
       )}
 
       {/* Scrolling notification header */}
-      <div className="bg-white text-red-600 text-xs py-3 px-4 shadow-sm w-full">
+      <div className="bg-white text-green-600 text-xs py-3 px-4 shadow-sm w-full">
         <div className="overflow-hidden whitespace-nowrap">
           <div className="animate-marquee inline-block font-bold">
             Dear User, Please ensure you conatct support; +2349033506181
